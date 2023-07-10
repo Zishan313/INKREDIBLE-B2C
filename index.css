@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@media (min-width: 1400px) {
+    .container {
+        /* max-width: 1320px; */    
+        max-width: min(1720px, 100vw);
+        margin: 0px auto;
+    }
+}
+
+.container {
+    position: relative;
+    left: 60%;
+    transform: translateX(-52%);
+}
+
+.prod-bannerimg
+{
+    position: relative;
+}
+
+.prod-bannertxt
+{
+    width: 24%;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.prod-bannertxt button
+{
+    padding: 8px 45px;
+    background: #FD7E00;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+.filter-flex
+{
+ display: flex;
+ justify-content: space-between;
+ width: 1240px;
+ margin-top: 40px;
+}
+
+.filter-flex .search
+{
+    height: 47px;
+    width: 300px;
+    border: 1px solid#DDDDDD80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    margin-right: 20px;
+}
+
+.filter-flex .drop-down
+{
+    height: 47px;
+    width: 180px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+}
+
+.filter-flex .select
+{
+    height: 47px;
+    width: 150px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+}
+
+.product-buttonflex
+{
+    display: flex;
+    margin-top: 30px;
+}
+
+.product-button1
+{
+    margin-right: 30px;
+}
+
+.product-sectionflex
+{
+ display: flex;
+}
+
+.product-sectionfilter
+{
+    height: 400px;
+    width: 22%;
+    background-color: blueviolet;
+}
+
+.product-sectioncard
+{
+    height: 400px;
+    width: 50%;
+    /* background-color: yellowgreen; */
+}
+
+.productcard 
+{
+
+}
+
+.card-img
+{
+    height: 270px;
+    width: 250px;
+    background: #E9E4DB;
+    padding: 50px 20px;
+}
+
+
+
+
