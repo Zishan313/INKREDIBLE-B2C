@@ -6,21 +6,56 @@
 
 }
 
-@media (min-width: 1420px) {
+/* @media (min-width: 1420px) {
     .container-main {
-        /* max-width: 1320px; */    
-        max-width: min(1420px, 100vw);
+       
+        max-width: min(1720px, 100vw);
     
     }
 }
 
+
+
 .container-main{
     position: relative;
-    /* left: 60%;
-    transform: translateX(-52%); */
+   
     display: flex;
     justify-content: center;
     font-family: "Jost";
+} */
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1270px;
+    }
+}
+
+.product-head-banner
+{
+    height: 350px;
+    background-image: url(Images/Rectangle\ 18\ \(1\).svg);
+    background-repeat: no-repeat; 
+    background-size: 100% 100%  ;
+    /* background-attachment: fixed;
+    /* width: 100%; */
+       
+}
+
+.product-head-shop
+{
+    height: 120px;
+    width: 220px;
+    background: #FFFFFFB2;
+    border-radius: 15px;
+}
+
+.product-head-shop p
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: #262834;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .prod-bannerimg
@@ -110,7 +145,7 @@
 .product-sectionfilter
 {
     height: 400px;
-    width: 20%;
+    /* width: 20%; */
     background-color: blueviolet;
 }
 
@@ -118,8 +153,9 @@
 {
     /* height: 400px; */
     padding-top: 40px;
-    padding-left: 360px;
+    padding-left: 15px;
     display: flex;
+    flex-wrap: wrap;
     /* width: 90%; */
     /* background-color: yellowgreen; */
 }
@@ -127,7 +163,8 @@
 .productcard 
 {
    position: relative;
-   margin-right: 20px;
+   margin-right: 19px;
+   margin-bottom: 30px;
 }
 
 .card-img
@@ -146,7 +183,7 @@
    font-size: 14px;
    letter-spacing: 1px;
    font-weight: 600;
-   font-family: 'Inter', sans-serif;
+   font-family: 'Jost', sans-serif;
    margin-right: 5px;
    margin-top: -2px;
 }
@@ -193,5 +230,24 @@
     right: 10px;
 }
 
+.product-numberflex
+{
+   display: flex;
+   justify-content: center;
+   /* width: 100%; */
+}
+
+.productnumbers button
+{
+    padding: 4px 11px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 4px;
+    background: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    color: #262834; 
+    font-weight: 400;
+    margin-right: 4px;
+}
 
 
