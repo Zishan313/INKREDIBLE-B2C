@@ -161,6 +161,66 @@ body {
     font-weight: 500;
 }
 
+about-banner {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.product-head-banner {
+    height: 350px;
+    background-image: url(./images/Rectangle\ 18.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-head-shop {
+    height: 120px;
+    width: 220px;
+    background: #FFFFFFB2;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-right: 350px;
+    padding: 20px 20px 20px 30px;
+
+}
+
+
+.head-banner-img {
+    margin-top: 80px;
+}
+
+.product-head-shop-text {
+    font-size: 30px;
+    font-weight: 600;
+    color: #262834;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-about {
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.home-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #262834;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+
+.about-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F8FAC;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
 /* Footer */
 
 
@@ -529,7 +589,7 @@ body {
 
 .product-filter2
 {
-    /* height: 450px; */
+    /* height: 450px;    */
     width: 300px;
     border: 1px solid #DDDDDD80;
     border-radius: 9px;
@@ -613,6 +673,131 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.product-categories
+{
+     /* height: 450px;    */
+     width: 300px;
+     border: 1px solid #DDDDDD80;
+     border-radius: 9px;
+     padding: 16px 14px; 
+     margin-top: 20px;
+}
+
+.product-sub-category
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FAFAFA;
+    color: #767676;
+    border-radius: 8px;
+    padding:0px 10px;
+    /* line-height: 10px; */
+    margin: 20px 0px;
+
+}
+
+.product-categories h1
+{
+    font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.product-popular
+{
+     /* height: 450px;    */
+     width: 300px;
+     border: 1px solid #DDDDDD80;
+     border-radius: 9px;
+     padding: 16px 14px; 
+     margin-top: 20px;
+}
+
+.product-popular h1
+{
+    font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.popular-flex-text p
+{
+    font-size: 14px;
+  font-family: "Jost";
+  font-weight: 400;
+  color: #767676;
+  margin-bottom: 7px;
+}
+
+.popular-flex-text h4
+{
+    font-size: 16px;
+  font-family: "Jost";
+  font-weight: 400;
+  color: #262834;
+  margin-bottom: 5px;
+}
+
+.popular-flex-text span
+{
+    font-size: 14px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+}
+
+.product-offer 
+{
+    font-family: "Jost";
+   
+}
+
+.product-offer-sale
+{
+    /* height: 175px; */
+    width: 220px;
+    background: rgba(253, 251, 251, 0.85);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px 0px   ;
+}
+
+.product-offer h1
+{
+    font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.offer-price
+{
+    font-family:'Montserrat';
+    color: #FD7E00;
+    display: flex;
+    font-weight: bolder;
+    padding: 0px 45px;
+}
+
+.product-offer button
+{
+    padding: 4px 55px;
+    background: #FD7E00;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    border: none;
+}
+
 
 .product-sectioncard
 {
