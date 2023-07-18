@@ -56,7 +56,7 @@ body {
     /* justify-content: center; */
     /* padding: 10px 200px 0px 200px; */
     /* padding: 10px 0px 10px 0px; */
-    padding: 0px 150px 0px 150px;
+    padding: 0px 220px;
 
 }
 
@@ -107,10 +107,11 @@ body {
 .lock-count {
     height: 18px;
     width: 18px;
-    padding: 0px 0px 0px 4px;
+    /* padding: 0px 0px 0px 4px; */
+    text-align: center;
     background-color: #0500FF;
     border-radius: 40px;
-    line-height: 17px;
+    line-height: 15px;
     color: #fff;
 }
 
@@ -123,13 +124,13 @@ body {
 .navbar-2 {
     display: flex;
     /* justify-content: center; */
-    padding: 0px 150px 0px 150px;
+    padding: 0px 220px;
 
 }
 
 .nav-category {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .nav-category-text {
@@ -146,7 +147,7 @@ body {
 }
 
 .nav-text {
-    padding: 10px 0px 10px 245px;
+    padding: 0px 290px;
     color: #103178;
     font-family: "Jost";
     font-size: 14px;
@@ -161,14 +162,15 @@ body {
     font-weight: 500;
 }
 
-about-banner {
+.about-banner {
     /* display: flex;
     justify-content: center; */
+    margin-bottom: 90px;
 }
 
 .product-head-banner {
     height: 350px;
-    background-image: url(./images/Rectangle\ 18.svg);
+    background-image: url(Images/Rectangle\ 18.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* background-attachment: fixed;
@@ -182,7 +184,7 @@ about-banner {
     width: 220px;
     background: #FFFFFFB2;
     border-radius: 15px;
-    margin-top: 150px;
+    margin-top: 190px;
     margin-right: 350px;
     padding: 20px 20px 20px 30px;
 
@@ -190,7 +192,7 @@ about-banner {
 
 
 .head-banner-img {
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 .product-head-shop-text {
@@ -803,7 +805,7 @@ about-banner {
 {
     /* height: 400px; */
     padding-top: 40px;
-    padding-left: 15px;
+    padding-left: 5px;
     display: flex;
     flex-wrap: wrap;
     /* width: 90%; */
@@ -900,4 +902,18 @@ about-banner {
     margin-right: 4px;
 }
 
+/* Product Listing page Complete  */
 
+
+/* Product Detail page Starts  */
+
+.productdetail-head-banner {
+    height: 350px;
+    background-image: url(Images/Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+}
