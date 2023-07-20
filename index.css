@@ -32,10 +32,10 @@
 }
 
 
-body {
+/* body {
     overflow-x: hidden;
 
-}
+} */
 
 .header {
     /* display: flex;
@@ -161,7 +161,7 @@ body {
     font-weight: 500;
 }
 
-about-banner {
+.about-banner {
     /* display: flex;
     justify-content: center; */
 }
