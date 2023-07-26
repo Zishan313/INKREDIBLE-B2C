@@ -21,6 +21,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -101,6 +102,7 @@
           <div class="big-img"><img src="Images/5.png" alt=""></div>
 
           <div class="small-img-arrow-div" style="position: relative;   ">
+            
             <div class="small-img-arrow">
               <img src="Images/Group 3443.png" alt="">
             </div>
@@ -138,7 +140,7 @@
               <img src="Images/Group 3445.png" alt="">
             </div>
           </div>
-          
+
           </div>
 
          
@@ -260,7 +262,7 @@
           <div class="description-button">
             <button>Description </button>
           </div>
-          <div class="description-button">
+          <div class="description-button" id="review-click">
             <button style="background-color: #FAFAFA; color: #767676;">Review <span>3</span></button>
           </div>
         </div>
@@ -604,5 +606,26 @@
       </div>
     </section>
 
+
+    <!-- <script>
+      $(document).ready(function(){
+        $("#review-click").click(function(){
+          $("review-page").show();
+        });
+      });
+      </script> -->
+
+      <script>
+        $(document).ready(function() {
+          // When the button is clicked, navigate to another page
+          $("#review-click").click(function() {
+            // Set the URL of the page you want to navigate to
+            var newPageUrl = "http://127.0.0.1:5500/product-detail2.html";
+            // Use window.location to change to the new page
+            window.location.href = newPageUrl;
+          });
+        });
+      </script>
+      
 </body>
 </html>
