@@ -2749,3 +2749,641 @@ input[type="radio"] {
 .marg-top{
     margin-top: 70px;
 }
+
+
+
+/* product-detail page */
+
+/* .productdetail-head-banner {
+    /* height: 350px; */
+    /* background-image: url(./images/Rectangle\ 18.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    /* background-attachment: fixed;
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-around; }*/
+
+.product-listing-section .small-img
+{
+    height: 95px;
+    width: 105px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    position: relative;
+    margin-right: 17px;
+    margin-top: 15px;
+}
+
+.small-img img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.small-img-arrow
+{
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  z-index: 1;
+  transform: translateY(-20%);
+  
+}
+
+.small-img-arrow1 
+{
+  position: absolute;
+  top: 51%;
+  right: 10px; 
+  transform: translateY(-20%);
+  
+}
+
+.product-section-text
+{
+     font-family: 'Jost', sans-serif;
+}
+
+.product-section-text h3
+{
+    font-size: 27px;
+    color: #262834;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+.product-section-text span
+{
+    font-size: 15px;
+    color: #767676;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+.product-section-text .circle-img
+{
+    margin-right: 10px;
+}
+
+.size-text
+{
+    font-size: 12px;
+    color: #27251F;
+    /* font-weight: 400; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 40%; */
+    margin-top: 5px;
+}
+
+.size-in
+{
+    height: 45px;
+    width: 62px;
+    border: 1px solid #D0D1D2;
+    line-height: 4px;
+    padding-top: 10px;
+    margin: 10px 0px;
+    margin-right: 15px;
+   
+}
+
+.size-in p
+{
+    color: #27251F;
+    font-size: 12px;
+    text-align: center;
+    /* line-height: 18%; */
+}
+
+.quatity-button
+{
+    height: 35px;
+    width: 133px;
+    border: 1px solid #DDDDDD66;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    padding: 2px 0px;
+}
+
+.text-button1 button
+{
+    padding: 8px 85px;
+    border-radius: 50px;
+    background: #FD7E00;
+    border: none;
+    color: #ffff;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.product-detail-description
+{
+    font-family: 'Jost', sans-serif;
+    color: #767676;
+    font-size: 15px;
+}
+
+.description-button button
+{
+    padding: 7px 20px;
+    color: #FD7E00;
+    background: #f8ebdc;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.description-button span
+{
+    height: 16px;
+    width: 16px;
+    background: #FD7E00;
+    color: white;
+    border-radius: 50%;
+    padding: 0px 6px;
+    padding-bottom: 1px;
+}
+
+
+
+
+/* product listing */
+
+.product-head-banner4 {
+    height: 350px;
+    background-image: url(./images/Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.head-banner-img1 {
+    margin-top: 111px;
+}
+.prod-bannerimg
+{
+    position: relative;
+}
+
+.prod-bannertxt
+{
+    width: 24%;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.prod-bannertxt button
+{
+    padding: 8px 45px;
+    background: #FD7E00;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+.filter-flex
+{
+ display: flex;
+ justify-content: space-between;
+ width: 1240px;
+ margin-top: 40px;
+}
+
+.filter-flex .search
+{
+    height: 47px;
+    width: 300px;
+    border: 1px solid#DDDDDD80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    margin-right: 20px;
+}
+
+.filter-flex .drop-down
+{
+    height: 47px;
+    width: 180px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+}
+
+.filter-flex .select
+{
+    height: 47px;
+    width: 150px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+}
+
+.product-buttonflex
+{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.product-button1
+{
+    margin-right: 30px;
+}
+
+.product-sectionflex
+{
+ display: flex;
+}
+
+.product-sectionfilter
+{
+    /* height: 400px; */
+    /* width: 20%; */
+    /* background-color: blueviolet; */
+    padding: 50px 0px;
+}
+
+.product-appliedfilter
+{
+    height: 150px;
+    width: 300px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 9px;
+    padding: 16px 14px;
+    margin-top: 40px;
+
+}
+
+.product-appliedfilter h1
+{
+  font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.filter-buttons
+{
+   margin-right: 7px;
+   margin-bottom: 10px;
+}
+
+.filter-buttons button
+{
+    padding: 4px 14px;
+    border: 1px solid #DDDDDD66;
+    background: white;
+    color: #767676;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Jost";
+    font-weight: 500;
+}
+
+.product-filter2
+{
+    /* height: 450px;    */
+    width: 300px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 9px;
+    padding: 16px 14px;
+
+}
+
+.product-filter2 h1
+{
+  font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.product-dollar
+{
+   margin-right: 10px;
+}
+
+
+.product-dollar p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Jost";
+    color: #262834  ;
+    padding: 3px 0px;
+
+}
+
+.product-button-price button
+{
+    padding: 3px 12px;
+    border: 1px solid #DDDDDD66;
+    background: white;
+    color: #767676;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: "Jost";
+    font-weight: 500;
+    color: #FD7E00;
+}
+
+.dash
+{
+    font-size: 18px;
+    font-family: "Jost";
+    color: #262834;
+    font-weight: 400;
+}
+
+.product-filter-brand p
+{
+    color: #767676;
+    font-size: 16 px;
+    font-family: "Jost";
+    font-weight: 500;
+}
+
+.sub-box p
+{
+    font-size: 15px;
+    font-family: "Jost";
+    color: #262834;
+    font-weight: 400;
+}
+
+.sub-box-nums
+{
+    font-size: 13px;
+    font-family: "Jost";
+    color: #FD7E00;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.product-checkbox
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-categories
+{
+     /* height: 450px;    */
+     width: 300px;
+     border: 1px solid #DDDDDD80;
+     border-radius: 9px;
+     padding: 16px 14px; 
+     margin-top: 20px;
+}
+
+.product-sub-category
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FAFAFA;
+    color: #767676;
+    border-radius: 8px;
+    padding:0px 10px;
+    /* line-height: 10px; */
+    margin: 20px 0px;
+
+}
+
+.product-categories h1
+{
+    font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.product-popular
+{
+     /* height: 450px;    */
+     width: 300px;
+     border: 1px solid #DDDDDD80;
+     border-radius: 9px;
+     padding: 16px 14px; 
+     margin-top: 20px;
+}
+
+.product-popular h1
+{
+    font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.popular-flex-text p
+{
+    font-size: 14px;
+  font-family: "Jost";
+  font-weight: 400;
+  color: #767676;
+  margin-bottom: 7px;
+}
+
+.popular-flex-text h4
+{
+    font-size: 16px;
+  font-family: "Jost";
+  font-weight: 400;
+  color: #262834;
+  margin-bottom: 5px;
+}
+
+.popular-flex-text span
+{
+    font-size: 14px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+}
+
+.product-offer 
+{
+    font-family: "Jost";
+   
+}
+
+.product-offer-sale
+{
+    /* height: 175px; */
+    width: 220px;
+    background: rgba(253, 251, 251, 0.85);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px 0px   ;
+}
+
+.product-offer h1
+{
+    font-size: 19px;
+  font-family: "Jost";
+  font-weight: 500;
+  color: #262834;
+  margin-bottom: 20px;
+}
+
+.offer-price
+{
+    font-family:'Montserrat';
+    color: #FD7E00;
+    display: flex;
+    font-weight: bolder;
+    padding: 0px 45px;
+}
+
+.product-offer button
+{
+    padding: 4px 55px;
+    background: #FD7E00;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    border: none;
+}
+
+
+.product-sectioncard
+{
+    /* height: 400px; */
+    padding-top: 40px;
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    /* background-color: yellowgreen; */
+}
+
+.productcard 
+{
+   position: relative;
+   margin-right: 19px;
+   margin-bottom: 30px;
+}
+
+.card-img
+{
+    
+}
+
+.card-txt
+{
+    color: #222222;
+    margin-top: 35px;
+}
+
+.card-txt .price p
+{
+   font-size: 14px;
+   letter-spacing: 1px;
+   font-weight: 600;
+   font-family: 'Jost', sans-serif;
+   margin-right: 5px;
+   margin-top: -2px;
+}
+
+.card-txt .star
+{
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+.card-txt .star p
+{
+    color: #262834;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 6px 6px;
+}
+
+.card-txt button
+{
+    padding: 6px 40px;
+    border-radius: 50px;
+    font-size: 21px;
+    font-weight: 600;
+    border: 1px solid #222222;
+    letter-spacing: 1px;
+    background: #ffff;
+}
+
+.card-txt  .popbox button
+{
+    padding: 7px 11px;
+    background: #FD7E00;
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.star
+{
+  margin-right: 4px;
+}
+
+.star p
+{
+  margin: 4px 7px;
+  font-size: 14px;
+  color: #262834;
+  font-family: 'Jost', sans-serif;
+}
+
+.product-numberflex
+{
+   display: flex;
+   justify-content: center;
+   /* width: 100%; */
+}
+
+.productnumbers button
+{
+    padding: 4px 11px;
+    border: 1px solid #DDDDDD80;
+    border-radius: 4px;
+    background: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    color: #262834; 
+    font-weight: 400;
+    margin-right: 4px;
+}

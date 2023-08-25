@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-listing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header -->
+  <section class="header">
+    <div class="container-fuild">
+      <div class="col first-line">
+        Enquiries@Auscorpit.Com.Au &nbsp; &nbsp;&nbsp;|&nbsp; &nbsp;&nbsp;
+        (08) 9248 8466
+      </div>
+      <div class="container">
+        <div class="navbar-1">
+          <div>
+            <img style="max-width: 90%" src="./images/Group 3367.svg" />
+          </div>
+          <div class="search-bar-class">
+            <input
+              type="text"
+              class="navbar-input-box"
+              placeholder="Search for products"
+            />
+          </div>
+          <div class="english-usd">
+            <div class="english-text">English</div>
+            <div class="english-text">USD</div>
+            <div class="english-usd-line"></div>
+
+            <div class="lock-logo">
+              <div><img src="./images/Vector (20).svg" /></div>
+              <div class="lock-count">0</div>
+            </div>
+            <div class="heart-logo">
+              <div><img src="./images/mdi_cards-heart-outline.svg" /></div>
+              <div class="lock-count">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-line"></div>
+      <div class="container">
+        <div class="navbar-2">
+          <div class="nav-category">
+            <div class="nav-category-text active">Home</div>
+            <div class="nav-category-text">Categories</div>
+            <div class="nav-category-text">MobilePhones</div>
+            <div class="nav-category-text">Products</div>
+            <div class="nav-category-text">About</div>
+            <div class="nav-category-text">Contact</div>
+          </div>
+          <div class="nav-text">
+            Need help? <span class="nav-text-sub"> (08) 9248 8466</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+      <!-- About-banner -->
+      <div class="container-fuild">
+        <div class="about-banner">
+          <div class="product-head-banner4">
+            <div class="product-head-shop">
+              <div class="product-head-shop-text">Shop</div>
+              <div class="home-about">
+                <div class="home-text">Home</div>
+                <div><img src="./images/Frame (1).png" alt="" /></div>
+                <div class="about-text">Shop</div>
+              </div>
+            </div>
+  
+            <div class="head-banner-img1">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="product-banner" style="margin-top: 100px;">
+        <div class="container">
+            <div class="prod-bannerimg">
+                <img src="./images/image 5.png" alt="">
+                <div class="prod-bannertxt">
+                    <h1>New Collection Diwali Sale</h1>
+                    <h3 style="font-size: 19px; margin-top: 15px;">SALE OFFER</h3>
+                    <p style="width: 150%;">Lorem ipsum dolor sit amet consectetur. Cras morbi suspendisse duis viverra. Viverra elementum
+                        sed at viverra elit. Quis libero eget tortor tortor sit neque quis volutpat.</p>
+                     <button>Shop now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-filter">
+        <div class="container">
+            <div class="filter-flex">
+               <div class="flex1" style="display: flex; ">
+                <div class="search">
+                    <div class="search-txt">
+                        <p style="color: #767676; font-size: 16px;">Search here...</p>
+                    </div>
+                    <div class="search-img">
+                        <img src="./images/svg.feather.png" alt="">
+                    </div>
+                </div>
+                <div class="drop-down">
+                    <div class="drop-txt">
+                        <p style="color: #767676; font-size: 14px;">24 Page Per View</p>
+                    </div>
+                    <div class="drop-img">
+                        <span style="font-size: 12px;"><i class="fa-solid fa-chevron-down"></i></span>
+                    </div>
+                </div>
+               </div>
+                <div class="select">
+                    <div class="drop-txt">
+                        <p style="color: #767676; font-size: 14px;">Select Feature</p>
+                    </div>
+                    <div class="drop-img">
+                        <span style="font-size: 12px;"><i class="fa-solid fa-chevron-down"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-buttons">
+        <div class="container">
+            <div class="product-buttonflex">
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img.png" alt="">
+                    <p style="margin: 8px 45px; font-size: 14px;">All</p>
+                </div>
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img (1).png" alt="">
+                    <p style="margin: 8px 35px; font-size: 14px;">Brother</p>
+                </div>
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img (2).png" alt="">
+                    <p style="margin: 8px 10px; font-size: 14px;">Hewlett Packard</p>
+                </div>
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img (3).png" alt="">
+                    <p style="margin: 8px 15px; font-size: 14px;">Konika Minolta</p>
+                </div>
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img (4).png" alt="">
+                    <p style="margin: 8px 30px; font-size: 14px;">Lexmark</p>
+                </div>
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img (5).png" alt="">
+                    <p style="margin: 8px 45px; font-size: 14px;">OKI</p>
+                </div>
+                <div class="product-button1">
+                    <img src="./images/div.visual-filter-img (6).png" alt="">
+                    <p style="margin: 8px 35px; font-size: 14px;">Canon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-section">
+        <div class="container">
+            <div class="product-sectionflex">
+                <div class="row">
+                    <div class="col-3 product-sectionfilter">
+                        <div class="product-appliedfilter">
+                            <h1>Applied Filters</h1>
+
+                            <div class="filter-button-flex" style="display: flex; flex-wrap: wrap;">
+                                <div class="filter-buttons">
+                                    <button >Printer
+                                        <img src="./images/svg.feather (1).png" alt="">
+                                    </button>
+                                </div>
+                                <div class="filter-buttons">
+                                    <button>Desktop
+                                        <img src="./images/svg.feather (1).png" alt="">
+                                    </button>
+                                </div>
+                                <div class="filter-buttons" style="margin: 0px 12px;">
+                                    <button style=" padding: 4px 10px;">Inks
+                                        <img src="./images/svg.feather (1).png" alt="">
+                                    </button>
+                                </div>
+                                <div class="filter-buttons">
+                                    <button>Gadgets
+                                        <img src="./images/svg.feather (1).png" alt="">
+                                    </button>
+                                </div>
+                                <div class="filter-buttons">
+                                    <button>Brand
+                                        <img src="./images/svg.feather (1).png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-filter2" style="margin-top: 20px;">
+                            <h1> Filters</h1>
+
+                            <div class="product-fiter-price" style="display: flex;">
+                                <div class="product-dollar">
+                                    <p>Min
+                                        <span style="color: #FD7E00; font-size: 12px;
+                                    "><i class="fa-solid fa-dollar-sign"></i></span>
+                                    </p>
+                                </div>
+                                <div class="product-button-price">
+                                    <button>2500</button>
+                                </div>
+
+                                <div class="dash" style="margin: 0px 23px;">
+                                    -
+                                </div>
+
+                                <div class="product-dollar">
+                                    <p>Max
+                                        <span style="color: #FD7E00; font-size: 12px;
+                                    "><i class="fa-solid fa-dollar-sign"></i></span>
+                                    </p>
+                                </div>
+                                <div class="product-button-price">
+                                    <button>7500</button>
+                                </div>
+                            </div>
+
+                            <div class="prduct-filter-range" style="margin: 15px 0px;">
+                                <img src="./images/div.slider.png" alt="">
+                            </div>
+
+                            <div class="product-filter-brand">
+                                <p>Brands</p>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark.png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>Brother</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        25
+                                    </div>
+                                </div>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark (1).png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>HP</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        15
+                                    </div>
+                                </div>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark (1).png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>Canon</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        8
+                                    </div>
+                                </div>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark (1).png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>Dell</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        25
+                                    </div>
+                                </div>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark (1).png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>Brother</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        12
+                                    </div>
+                                </div>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark (1).png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>Lenovo</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        32
+                                    </div>
+                                </div>
+
+                                <div class="product-checkbox">
+                                    <div class="sub-box" style="display: flex;">
+                                      <div class="subox-img">  <img src="./images/span.checkbox__checkmark (1).png" alt=""></div>
+                                   <div class="subox-p" style="margin:1px 7px;"> <p>MSI</p></div>
+                                    </div>
+                                    <div class="sub-box-nums">
+                                        14
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-categories">
+                          <h1>Categories</h1>
+                          <div class="product-sub-category">
+                            <div class="sub-box" style="display: flex;">
+                              <div class="subox-img">  <img src="./images/svg.feather (2).png" alt=""></div>
+                           <div class="subox-p" style="margin:1px 7px;"> <p>Mobile Phones</p></div>
+                            </div>
+                            <div class="sub-box-nums">
+                                32
+                            </div>
+                        </div>
+
+                        <div class="product-sub-category">
+                          <div class="sub-box" style="display: flex;">
+                            <div class="subox-img">  <img src="./images/svg.feather (2).png" alt=""></div>
+                         <div class="subox-p" style="margin:1px 7px;"> <p>Desktop Printers</p></div>
+                          </div>
+                          <div class="sub-box-nums">
+                              32
+                          </div>
+                      </div>
+
+                      <div class="product-sub-category">
+                        <div class="sub-box" style="display: flex;">
+                          <div class="subox-img">  <img src="./images/svg.feather (2).png" alt=""></div>
+                       <div class="subox-p" style="margin:1px 7px;"> <p>Printers</p></div>
+                        </div>
+                        <div class="sub-box-nums">
+                            5
+                        </div>
+                    </div>
+
+                    <div class="product-sub-category">
+                      <div class="sub-box" style="display: flex;">
+                        <div class="subox-img">  <img src="./images/svg.feather (2).png" alt=""></div>
+                     <div class="subox-p" style="margin:1px 7px;"> <p>Cartridges</p></div>
+                      </div>
+                      <div class="sub-box-nums">
+                          15
+                      </div>
+                  </div>
+
+                  <div class="product-sub-category">
+                    <div class="sub-box" style="display: flex;">
+                      <div class="subox-img">  <img src="./images/svg.feather (2).png" alt=""></div>
+                   <div class="subox-p" style="margin:1px 7px;"> <p>Accessories</p></div>
+                    </div>
+                    <div class="sub-box-nums">
+                        6
+                    </div>
+                </div>
+               </div>
+
+               <div class="product-popular">
+                <h1>Most Popular</h1>
+                <div class="product-popular-flex" style="display: flex; margin-bottom: 20px;">
+                  <div class="popular-flex-img" style="margin-right: 10px;">
+                    <img src="./images/div.img-box.png" alt="">
+                  </div>
+                  <div class="popular-flex-text">
+                    <p>Printer</p>
+                    <h4>Lorem Ipsum</h4>
+                    <span>$150.00  <strike style="color: #FD7E00;">$250.00</strike></span>
+                  </div>
+                </div>
+
+                <div class="product-popular-flex" style="display: flex;margin-bottom: 20px;">
+                  <div class="popular-flex-img" style="margin-right: 10px;">
+                    <img src="./images/div.img-box.png" alt="">
+                  </div>
+                  <div class="popular-flex-text">
+                    <p>Printer</p>
+                    <h4>Lorem Ipsum</h4>
+                    <span>$150.00  <strike style="color: #FD7E00;">$250.00</strike></span>
+                  </div>
+                </div>
+
+                <div class="product-popular-flex" style="display: flex;">
+                  <div class="popular-flex-img" style="margin-right: 10px;">
+                    <img src="./images/div.img-box (1).png" alt="">
+                  </div>
+                  <div class="popular-flex-text">
+                    <p>Printer</p>
+                    <h4>Lorem Ipsum</h4>
+                    <span>$150.00  <strike style="color: #FD7E00;">$250.00</strike></span>
+                  </div>
+                </div>
+               </div>
+
+               <div class="product-offer" style="margin-top: 40px;">
+                <h1>Offers</h1>
+
+                <div class="product-offer-img" style="position: relative;">
+                  <img src="./images/Rectangle 19.png" alt="">
+                  <div class="product-offer-sale">
+                    <p style="font-size: 15px; color: #767676; margin-bottom: 0px;">Summer Sale</p>
+                    <div class="offer-price" >
+                      <div class="num" style="font-size: 60px;">
+                        70
+                      </div>
+                      <div class="percent" style="margin: 0px 4px;">
+                        <p style="font-size: 37px; margin: 2px 10px;">%</p>
+                        <p style="font-size: 23px; margin:-20px 0px;">OFF</p>
+                      </div>
+                    </div>
+                    <button>Shop now</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+                    </div>
+                    <div class="col-9 product-sectioncard">
+    
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div.png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>   
+                        </div>
+                     </div>
+    
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div (1).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <!-- <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>    -->
+                        </div>
+                     </div>
+    
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div (7).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <!-- <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>    -->
+                        </div>
+                     </div>
+    
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div (6).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <!-- <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>    -->
+                        </div>
+                     </div>
+
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div (8).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>   
+                        </div>
+                     </div>
+
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div (2).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <!-- <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>    -->
+                        </div>
+                     </div>
+
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="./images/div (3).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <!-- <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>    -->
+                        </div>
+                     </div>
+
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="Images/div (4).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <!-- <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>    -->
+                        </div>
+                     </div>
+
+                     <div class="productcard">
+                        <div class="card-img">
+                          <img src="Images/div (5).png" alt="" >
+                        </div>
+                        <div class="card-txt">
+                            <p style="font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; ">Lorem ipsum dolor sit</p>
+                            <p style="font-size: 10px; font-weight: 400; text-transform: uppercase; letter-spacing: 1.5px; margin-top:-7px;">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="price" style="display: flex;">
+                                <div class="price1"><p>$36.00</p></div>
+                                <div class="price1"><strike><p>$40.75</p></strike></div>
+                            </div>    
+                            <div class="stars-flex" style="display: flex;">
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector.png" alt=""></div>
+                                <div class="star"><img src="Images/Vector (1).png" alt=""></div>
+                                <div class="star"><p >120 Rating</p></div>
+                            </div>  
+                            <button>Add to cart</button>    
+                            <div class="popbox">
+                                <button>Limited Edition</button>
+                            </div>   
+                        </div>
+                     </div>
+
+                     <div class="product-card-numbers">
+                    
+                            <div class="product-numberflex">
+                                <div class="productnumbers" >
+                                    <button style="padding: 4px 12px;"><img src="Images/«.png" alt=""></button>
+                                </div>
+                                <div class="productnumbers">
+                                    <button>1</button>
+                                </div>
+                                <div class="productnumbers">
+                                    <button style="background-color: #FD7E00; color: #FFFFFF;">2</button>
+                                </div>
+                                <div class="productnumbers">
+                                    <button>3</button>
+                                </div>
+                                <div class="productnumbers">
+                                    <button style="padding: 4px 12px;"><img src="Images/».png" alt=""></button>
+                                </div>
+                            </div>
+                       
+                     </div>
+                    </div>
+    
+                </div>        
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="footer" style="margin-top: 100px;">
+        <div><img class="footer-img" src="./images/Group (13).svg" alt="" /></div>
+        <div class="footer-1">
+          <div class="footer-1-inner">
+            <div class="inner-para">
+              Join our newsletter and get<br />
+              $18 discount for your first order
+            </div>
+          </div>
+  
+          <div class="email-subscribe">
+            <div class="email-input">
+              <input
+                type="text"
+                class="email-input-sub"
+                placeholder="Enter your email here"
+              />
+            </div>
+            <div class="subscribe-button">
+              <button class="subscribe-button-sub">Subscribe</button>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="row moneyback-fast-shipping">
+              <div class="col money-back">100% Money back</div>
+              <div class="col money-back">Fast shipping</div>
+              <div class="col free-shipping">Free delivery for order over $200</div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="footer-2">
+            <div class="footer-2-sec1">
+              <div>
+                <img style="max-width: 90%" src="./images/Group 3367.svg" />
+              </div>
+              <div class="inkredible-address">
+                32nd Street, Lorem City,<br />
+                Dolor State, Country - 235102
+              </div>
+              <div class="show-on-map">Show on map</div>
+            </div>
+            <div class="footer-2-sec2">
+              <div class="need-help">Need help?</div>
+              <div class="need-help-number">0020 500 - 000</div>
+              <div class="need-help-time">
+                Monday – Friday: 9:00-20:00<br />
+                Saturday: 11:00 – 15:00
+              </div>
+              <div class="footer-2-sec2-line"></div>
+              <div class="email-address">contact@inkredible.com</div>
+            </div>
+  
+            <div class="footer-2-sec3">
+              <div class="information">
+                <div class="information-sub">Information</div>
+                <div class="information-dub">About us</div>
+                <div class="information-dub">Delivery information</div>
+                <div class="information-dub">Privacy Policy</div>
+                <div class="information-dub">Sales</div>
+                <div class="information-dub">Terms & Conditions</div>
+              </div>
+              <div class="account">
+                <div class="information-sub">Account</div>
+                <div class="information-dub">My account</div>
+                <div class="information-dub">My orders</div>
+                <div class="information-dub">Returns</div>
+                <div class="information-dub">Shipping</div>
+                <div class="information-dub">Wishlist</div>
+              </div>
+              <div class="store">
+                <div class="information-sub">Store</div>
+                <div class="information-dub">Affiliate</div>
+                <div class="information-dub">Bestsellers</div>
+                <div class="information-dub">Discount</div>
+                <div class="information-dub">Latest products</div>
+                <div class="information-dub">Sale</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="lower-footer">
+            <div class="col-10 footer-mainline"></div>
+            <div class="copy-right-sec">
+              <div class="copy-right-text">
+                Copyright © 2023 inkredible. All Rights Reserved
+              </div>
+              <div class="footer-logo">
+                <img src="./images/payment.png.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</body>
+
+</html>
